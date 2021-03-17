@@ -1,9 +1,20 @@
 <template>
   <div>
+    <app-header/>
     <Nuxt />
+    <footer-app/>
   </div>
 </template>
-
+<script>
+import AppHeader from '../components/AppHeader.vue'
+import FooterApp from '../components/FooterApp.vue'
+export default {
+  components:{
+    AppHeader,
+    FooterApp
+  }
+}
+</script>
 <style>
 html {
   font-family:
