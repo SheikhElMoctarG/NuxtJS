@@ -1,6 +1,7 @@
 <template>
   <div>
      <v-app-bar
+      class="nav"
       color="deep-purple accent-4"
       dense
       dark
@@ -33,3 +34,8 @@
     </v-app-bar>
   </div>
 </template>
+<style>
+.nav{
+  width: 400px;
+}
+</style>

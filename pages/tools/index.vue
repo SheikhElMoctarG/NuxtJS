@@ -9,3 +9,5 @@ export default {
   layout: 'New-Layout'
 }
 </script>
+<style >
+</style>

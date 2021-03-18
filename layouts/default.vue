@@ -1,9 +1,15 @@
 <template>
-  <div>
+  <div class="all">
+    <div class="header">
     <app-header/>
+    </div>
+    <div class="content">
     <Nuxt />
+    </div>
+    <div class="footer">
     <footer-app/>
-  </div>
+    </div>
+    </div>
 </template>
 <script>
 import AppHeader from '../components/AppHeader.vue'
@@ -16,6 +22,23 @@ export default {
 }
 </script>
 <style>
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 html {
   font-family:
     'Source Sans Pro',
